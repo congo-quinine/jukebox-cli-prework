@@ -52,7 +52,7 @@ def run(songs)
   command = ''
     until command == 'exit'
       puts "Please enter a command:"
-      command = gets.chomp
+      # command = gets.chomp
         if command == 'list'
           list(songs)
         elsif command == 'play'
