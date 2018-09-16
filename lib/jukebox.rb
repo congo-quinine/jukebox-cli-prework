@@ -33,8 +33,8 @@ songs = [
     puts "Please enter a song name or number:"
     user_input = gets.chomp
 
-    if song_array.any? { |val| /#{user_input}/ =~ val}
-     song_choice = song_array.select{|song| song.match(/#{user_input}/)}
+    if song_array.any? { |val| /user_input/ =~ val}
+     song_choice = song_array.select{|song| song.match(/user_input}/)}
      puts song_choice
      return
     else
